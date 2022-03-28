@@ -1,0 +1,6 @@
+com\bjpowernode\domain\Student.class
+com\bjpowernode\utils\MyBatisUtil.class
+com\bjpowernode\vo\CustomObject.class
+com\bjpowernode\vo\QueryParam.class
+com\bjpowernode\dao\StudentDao.class
+com\bjpowernode\vo\ProvinceCity.class

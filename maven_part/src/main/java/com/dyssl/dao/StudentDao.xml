@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dyssl.dao.StudentDao">
+    <!--查询一个学生,id使用接口中的方法名，resulttype表示执行该语句后要把数据赋值给哪个java对象，使用java对象的全限定名称,其他操作不用resulttype-->
+    <select id="selectStudentById" resultType="com.dyssl.domain.Student">
+        select id,name,email,age from student where id=#{studentId}
+    </select>
+    <!--insert into student values(1003,"maxia","maxia@qq.com",22)
+    如果传入给mybatis是一个java对象，使用#{属性名}来获取此属性的值
+    例如#{id}，执行的是getId()-->
+    <insert id="insertStudent" >
+        insert into student values(#{id},#{name},#{email},#{age})
+    </insert>
+</mapper>
+
+<!--
+1.约束文件"http://mybatis.org/dtd/mybatis-3-mapper.dtd"定义和限制当前文件可以使用的标签和标签顺序
+2.mapper是根标签，namespace：命名空间必须有值不能为空，在项目中是唯一值，推荐使用Dao接口的全限定名称。作用：参与识别sql语句
+3.在mapper里面可以写<insert><update><delete><select>等标签，对应sql语句
+-->

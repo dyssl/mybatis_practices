@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib (6)">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../maven_part6_dynamic/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../maven_part6_dynamic/lib" recursive="false" />
+  </library>
+</component>

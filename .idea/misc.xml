@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven_part2/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_part/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/../../学习/java笔记/mybaties/04-project/ch01-first/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

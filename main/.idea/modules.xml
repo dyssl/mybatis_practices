@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ch06-dynamic-sql/ch06-dynamic-sql.iml" filepath="$PROJECT_DIR$/../ch06-dynamic-sql/ch06-dynamic-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maven_part/maven_part.iml" filepath="$PROJECT_DIR$/../maven_part/maven_part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maven_part2/maven_part2.iml" filepath="$PROJECT_DIR$/../maven_part2/maven_part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maven_part3 proxy-dao/maven_part3 proxy-dao.iml" filepath="$PROJECT_DIR$/../maven_part3 proxy-dao/maven_part3 proxy-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maven_part4 parameter/maven_part4 parameter.iml" filepath="$PROJECT_DIR$/../maven_part4 parameter/maven_part4 parameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maven_part5 result/maven_part5 result.iml" filepath="$PROJECT_DIR$/../maven_part5 result/maven_part5 result.iml" />
+    </modules>
+  </component>
+</project>
