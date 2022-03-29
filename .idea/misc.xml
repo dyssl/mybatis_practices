@@ -5,8 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/maven_part2/pom.xml" />
         <option value="$PROJECT_DIR$/maven_part/pom.xml" />
-        <option value="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" />
-        <option value="$PROJECT_DIR$/../../学习/java笔记/mybaties/04-project/ch01-first/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_part3_proxy-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_part4_parameter/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_part5_result/pom.xml" />
+        <option value="$PROJECT_DIR$/maven_part6_dynamic/pom.xml" />
       </list>
     </option>
   </component>

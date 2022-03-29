@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../学习/java笔记/mybaties/04-project/ch01-first/ch01-first.iml" filepath="$PROJECT_DIR$/../../学习/java笔记/mybaties/04-project/ch01-first/ch01-first.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ch06-dynamic-sql/ch06-dynamic-sql.iml" filepath="$PROJECT_DIR$/ch06-dynamic-sql/ch06-dynamic-sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven_part/maven_part.iml" filepath="$PROJECT_DIR$/maven_part/maven_part.iml" />
       <module fileurl="file://$PROJECT_DIR$/maven_part2/maven_part2.iml" filepath="$PROJECT_DIR$/maven_part2/maven_part2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/mybaties.iml" filepath="$PROJECT_DIR$/.idea/mybaties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_part3_proxy-dao/maven_part3_proxy-dao.iml" filepath="$PROJECT_DIR$/maven_part3_proxy-dao/maven_part3_proxy-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_part4_parameter/maven_part4_parameter.iml" filepath="$PROJECT_DIR$/maven_part4_parameter/maven_part4_parameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_part5_result/maven_part5_result.iml" filepath="$PROJECT_DIR$/maven_part5_result/maven_part5_result.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_part6_dynamic/maven_part6_dynamic.iml" filepath="$PROJECT_DIR$/maven_part6_dynamic/maven_part6_dynamic.iml" />
     </modules>
   </component>
 </project>

@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven_part" />
+        <module name="maven_part3_proxy-dao" />
+        <module name="maven_part5_result" />
+        <module name="maven_part6_dynamic" />
+        <module name="maven_part4_parameter" />
         <module name="maven_part2" />
-        <module name="ch06-dynamic-sql" />
-        <module name="ch01-first" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,8 +20,12 @@
       <module name="maven_part" target="1.8" />
       <module name="maven_part2" target="1.8" />
       <module name="maven_part3 proxy-dao" target="1.8" />
+      <module name="maven_part3_proxy-dao" target="1.8" />
       <module name="maven_part4 parameter" target="1.8" />
+      <module name="maven_part4_parameter" target="1.8" />
       <module name="maven_part5 result" target="1.8" />
+      <module name="maven_part5_result" target="1.8" />
+      <module name="maven_part6_dynamic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
