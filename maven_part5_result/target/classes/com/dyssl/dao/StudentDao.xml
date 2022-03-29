@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dyssl.dao.StudentDao">
+    <!--parameterType:指定dao接口形参的类型
+    这个属性的值可以使用java类型的全限定名称或者mybatis定义的别名
+    mybatis通过反射机制可以获取dao接口的参数类型，可以不写
+    -->
+    <select id="selectStudentById" resultType="com.dyssl.domain.Student">
+        select id,name,email,age from student where id=#{studentId}
+    </select>
+<!--    <select id="selectStudentById2" resultType="com.vo.CustomObject">-->
+<!--        select id,name,email,age from student where id=#{studentId}-->
+<!--    </select>-->
+    <!--使用resultMap来定义列和属性的关系
+    id:给resultMap的映射关系起个名称，唯一值
+    type：java类型的全限定名称
+    -->
+    <resultMap id="customMap" type="com.vo.CustomObject">
+        <!--定义列名和属性名的对应，主键类型使用id标签，非主键列使用result标签,列名和属性名相同则不用定义-->
+        <id column="id" property="cid"/>
+        <result column="name" property="cname"/>
+    </resultMap>
+    <select id="selectStudentById2" resultMap="customMap">
+        select id,name,email,age from student where id=#{studentId}
+    </select>
+    <!--使用列别名解决列名和属性名不同的问题-->
+    <select id="selectStudentById3" resultType="com.vo.CustomObject">
+        select id cid,name cname,email,age from student where id=#{studentId}
+    </select>
+    <!--执行sql语句得到的是一个值-->
+    <select id="countStudent" resultType="int">
+        select count(*) from student
+    </select>
+    <!--
+    把resulttype转为map，sql执行结果，列名作为map的key，列值作为value
+    sql执行的是一行记录，转为map是正确的，多余一行会报错
+    -->
+    <select id="selectMap" resultType="java.util.Map">
+        select id,name from student where id = #{studentid}
+    </select>
+    <select id="selectLikeOne" resultType="com.dyssl.domain.Student">
+        select * from student where name like #{name}
+    </select>
+
+</mapper>
